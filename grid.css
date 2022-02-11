@@ -1,0 +1,332 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: orange;
+}
+
+.container-grid1 {
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: (2, 1fr) ;
+    grid-template-rows: 25vh 75vh;
+    grid-template-areas: 
+        'box1 box1'
+        'box2 box2'
+    ;
+
+}
+
+.container-grid2 {
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: (2, 1fr) ;
+    grid-template-rows: 15vh 75vh 10vh;
+    grid-template-areas: 
+        'box3 box3'
+        'box4 box4'
+        'box5 box5'
+    ;
+
+}
+
+.container-grid3 {
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 50% 50% ;
+    grid-template-areas: 
+        'box6 box7'
+        'box6 box7'
+    ;
+
+}
+
+.container-grid4 {
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 50% 50% 50%;
+    grid-template-areas: 
+        'box8 box9 box10 '
+        'box8 box9 box10'
+    ;
+
+}
+
+.container-grid5 {
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 0.5fr 1fr 3fr;
+    grid-template-rows: 25vh 75vh;
+    grid-template-areas: 
+        'box11 box11 box11 '
+        'box12 box13 box13'
+    ;
+
+}
+
+.container-grid6 {
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 25vh 75vh;
+    grid-template-areas: 
+        'box14 box14 box14 '
+        'box15 box16 box17'
+    ;
+
+}
+
+.container-grid7 {
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: 
+        'box18 box18 box18'
+        'box19 box20 box20'
+        'box21 box21 box21'
+    ;
+
+}
+
+.container-grid8 {
+
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 25vh 65vh 10vh;
+    grid-template-areas: 
+        'box22 box22 box22'
+        'box23 box24 box25'
+        'box26 box26 box26'
+    ;
+
+}
+
+.box1{
+
+    border: 10px solid green;
+    background-color: rgb(255, 0, 191);
+    grid-area: box1;
+
+}
+
+.box2{
+
+    border: 10px solid green;
+    background-color: rgb(255, 0, 191);
+    grid-area: box2;
+    
+}
+
+.box3{
+
+    border: 10px solid green;
+    background-color: rgb(85, 84, 173);
+    grid-area: box3;
+
+}
+
+.box4{
+
+    border: 10px solid green;
+    background-color: rgb(85, 84, 173);
+    grid-area: box4;
+    
+}
+
+.box5{
+
+    border: 10px solid green;
+    background-color: rgb(85, 84, 173);
+    grid-area: box5;
+    
+}
+
+.box6{
+
+    border: 10px solid green;
+    background-color: rgb(230, 149, 28);
+    grid-area: box6;
+    
+}
+
+.box7{
+
+    border: 10px solid green;
+    background-color: rgb(230, 149, 28);
+    grid-area: box7;
+    
+}
+
+.box8{
+
+    border: 10px solid green;
+    background-color: rgb(255, 64, 64);
+    grid-area: box8;
+    
+}
+
+.box9{
+
+    border: 10px solid green;
+    background-color: rgb(255, 64, 64);
+    grid-area: box9;
+    
+}
+
+.box10{
+
+    border: 10px solid green;
+    background-color: rgb(255, 64, 64);
+    grid-area: box10;
+    
+}
+
+.box11{
+
+    border: 10px solid green;
+    background-color: rgb(255, 203, 31);
+    grid-area: box11;
+    
+}
+
+.box12{
+
+    border: 10px solid green;
+    background-color: rgb(255, 203, 31);
+    grid-area: box12;
+    
+}
+
+.box13{
+
+    border: 10px solid green;
+    background-color: rgb(255, 203, 31);
+    grid-area: box13;
+    
+}
+
+.box14{
+
+    border: 10px solid green;
+    background-color: rgb(31, 255, 98);
+    grid-area: box14;
+    
+}
+
+.box15{
+
+    border: 10px solid green;
+    background-color: rgb(31, 255, 98);
+    grid-area: box15;
+    
+}
+
+.box16{
+
+    border: 10px solid green;
+    background-color: rgb(31, 255, 98);
+    grid-area: box16;
+    
+}
+
+.box17{
+
+    border: 10px solid green;
+    background-color: rgb(31, 255, 98);
+    grid-area: box17;
+    
+}
+
+.box18{
+
+    border: 10px solid green;
+    background-color: rgb(194, 33, 243);
+    grid-area: box18;
+    
+}
+
+.box19{
+
+    border: 10px solid green;
+    background-color: rgb(194, 33, 243);
+    grid-area: box19;
+    
+}
+
+.box20{
+
+    border: 10px solid green;
+    background-color: rgb(194, 33, 243);
+    grid-area: box20;
+    
+}
+
+.box21{
+
+    border: 10px solid green;
+    background-color: rgb(194, 33, 243);
+    grid-area: box21;
+    
+}
+
+.box22{
+
+    border: 10px solid green;
+    background-color: rgb(136, 255, 0);
+    grid-area: box22;
+    
+}
+
+.box23{
+
+    border: 10px solid green;
+    background-color: rgb(136, 255, 0);
+    grid-area: box23;
+    
+}
+
+.box24{
+
+    border: 10px solid green;
+    background-color: rgb(136, 255, 0);
+    grid-area: box24;
+    
+}
+
+.box25{
+
+    border: 10px solid green;
+    background-color: rgb(136, 255, 0);
+    grid-area: box25;
+    
+}
+
+.box26{
+
+    border: 10px solid green;
+    background-color: rgb(136, 255, 0);
+    grid-area: box26;
+    
+}
+
+
+
+
+
+
+
+
+
+
